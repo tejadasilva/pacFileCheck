@@ -14,9 +14,9 @@ def checkpac(proxyDict, pac_urls):
 
 if __name__ == "__main__":
 
-    pac_urls1 = [
-        'http://pac.zscloud.net/riafinancial.com/ria_la.pac',
-    ]
+    with open('list1_1.txt') as file1:
+       pac_urls1=file1.readlines()
+
 
 
     http_proxy1  = "http://199.33.85.48:443"
